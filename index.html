@@ -196,6 +196,71 @@
             }
         }
 
+        /* Mobile-friendly responsive styles */
+        @media screen and (max-width: 768px) {
+            .question {
+                font-size: 1.8rem;
+                padding: 0 15px;
+                letter-spacing: 1px;
+                margin-bottom: 40px;
+            }
+
+            button {
+                padding: 15px 35px;
+                font-size: 1.2rem;
+                border-width: 2px;
+            }
+
+            .button-container {
+                gap: 20px;
+                flex-wrap: wrap;
+            }
+
+            .date-text, .valentine-text {
+                font-size: 2.5rem;
+                padding: 0 20px;
+                letter-spacing: 2px;
+            }
+
+            .heart {
+                font-size: 20px;
+            }
+
+            .falling-heart {
+                font-size: 30px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .question {
+                font-size: 1.5rem;
+                margin-bottom: 30px;
+                letter-spacing: 0.5px;
+            }
+
+            button {
+                padding: 12px 28px;
+                font-size: 1rem;
+            }
+
+            .button-container {
+                gap: 15px;
+            }
+
+            .date-text, .valentine-text {
+                font-size: 2rem;
+                letter-spacing: 1px;
+            }
+
+            .heart {
+                font-size: 18px;
+            }
+
+            .falling-heart {
+                font-size: 25px;
+            }
+        }
+
     </style>
 </head>
 <body>
