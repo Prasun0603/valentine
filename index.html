@@ -287,7 +287,7 @@
             // Create romantic falling hearts
             createRomanticHearts();
             
-            // After 3 seconds, fade out Valentine's Day and show "It's a Date!!"
+            // After 10 seconds, fade out Valentine's Day and show "It's a Date!!"
             setTimeout(() => {
                 valentineText.classList.add('hide');
                 
@@ -295,7 +295,7 @@
                     valentineText.style.display = 'none';
                     document.getElementById('dateText').classList.add('show');
                 }, 1000); // Wait for fade out animation to complete
-            }, 3000); // Show Valentine's Day message for 3 seconds
+            }, 10000); // Show Valentine's Day message for 10 seconds
         });
 
         // Create romantic falling hearts animation
